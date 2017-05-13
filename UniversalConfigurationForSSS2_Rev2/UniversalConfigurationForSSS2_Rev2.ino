@@ -46,15 +46,14 @@ byte sourceAddress = 0xFA;
 //const uint8_t ExtenderOpCode = 0b01000110;
 const uint8_t ExtenderOpCode = 0b01001110;
 
-uint8_t bitPositions[8] = { ~0b00000001,
-                            ~0b00000010,
-                            ~0b00000100,
-                            ~0b00001000,
-                            ~0b00010000,
-                            ~0b00100000,
-                            ~0b01000000,
-                            ~0b10000000
-                          };
+uint8_t bitPositions[8] = { 0b11111110,
+                            0b11111101,
+                            0b11111011,
+                            0b11110111,
+                            0b11101111,
+                            0b11011111,
+                            0b10111111,
+                            0b01111111};
 /* End Definitions for Digital Potentiometer Terminal Connections  */
 /*******************************************************************/
 
@@ -121,10 +120,10 @@ const int CSdispPin         = 9;
 const int CSpotsPin         = 15;
 const int CSanalogPin       = 31;
 const int CShvadjPin        = 55;
-const int CStermPin         = 41;//21; //41;
-const int CSVoutPin         = 42;//26; //42;
+const int CStermPin         = 21; //41;
+const int CSVoutPin         = 26; //42;
 const int CSCANPin          = 54;
-const int ignitionCtlPin    = 39;
+const int ignitionCtlPin    = 53;
 const int buttonPin         = 24;
 const int pwm1              = 16;
 const int pwm2              = 17;
