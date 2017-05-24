@@ -4,10 +4,7 @@
    Hardware Revision 2
 
    Written by Dr. Jeremy S. Daily
-   Synercon Technologies, LLC
-   
-   Proprietary Software - Not for Public Release
-
+  
    Copyright (c) 2017        Jeremy S. Daily
 */
 
